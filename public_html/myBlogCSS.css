@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-Nov-2017, 06:20:15
+    Author     : Marta
+*/
+
+.navBar {
+background: #565e6c;;
+padding: 10px;
+display: block;
+}
+.searchRight {
+    float: right;
+    margin-top: -8px;
+    color: red; 
+    font-size: 13px
+}
+
+.socMed {
+    color: white;
+    background: #565e6c;
+    padding: 10px;
+    vertical-align: middle; 
+    
+}
+.socMed:hover {
+    background: white;
+    color: #07337a;
+
+h1 {
+    
+}
+.imgContainer {
+    border: 2px solid red; 
+    overflow: hidden;
+    display: inline-block;
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+}
+#image {
+    position: absolute;
+    left:0;
+    top: 0;
+    
+}
+.imgText {
+    z-index: 100;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
