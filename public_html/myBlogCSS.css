@@ -1,6 +1,5 @@
-
 .navBar {
-background: #565e6c;;
+background: #565e6c;
 padding: 10px;
 display: block;
 }
@@ -8,35 +7,32 @@ display: block;
     float: right;
     margin-top: -8px;
     color: red; 
-    font-size: 13px
+    font-size: 13px;
 }
-
 .socMed {
     color: white;
     background: #565e6c;
     padding: 10px;
     vertical-align: middle; 
-    
 }
 .socMed:hover {
     background: white;
     color: #07337a;
-
-h1 {
-    
+header h1.main {
+    color: red;
 }
-.imgContainer {
+div.imgContainer {
     position: relative;
 }
-#image {
+ div img.image {
     position: absolute;
     left: 0;
     top: 0;
-    
 }
-.imgText {
+div.imgText {
     z-index: 100;
     position: absolute;
     padding-top: 50px;
     padding-left: 50px;
+    font-size: 40px;
 }
