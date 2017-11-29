@@ -12,10 +12,13 @@ and open the template in the editor.
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="myBlogCSS.css" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
-    <body>
+    <body class="container-fluid">
         <!-- Nav bar with social medias -->
-        <div class="navBar"> 
+        <div class="navBar" class="col-sm-12"> 
             <a href="#" class="socMed" ><i class="fa fa-facebook-official"></i></a>
             <a href="#" class="socMed" ><i class="fa fa-instagram"></i></a>
             <a href="#" class="socMed" ><i class="fa fa-snapchat-square"></i></a>
@@ -27,23 +30,26 @@ and open the template in the editor.
         <!-- end of Nav bar with social medias -->
         <!-- Content div -->
          <div> 
-             <header>
+             <div class="row">
+             <header class="col-sm-12">
                  <h1 class="main">Marta Gut</h1>
                  <h5>Let's travel together</h5>
              </header>
              <!-- Big Image Header -->
-             <div class="imgContainer">
+             <div class="imgContainer col-sm-12">
                  <img class="image" src="imageHeader.jpg" width="911" height="912" alt="imageHeader"/>
                  <div class="imgText">
                        <h1><span>My travelling experience</span></h1>
                        <button>Subscribe</button>
                  </div>
              </div>
+             </div>
               <!--End of Big Image Header -->
              <!-- Grid system -->
-             <div>
+             <div class="">
                  <!-- Blog entries -->
-                <div>
+                <div class="row">
+                    <div class="col-sm-8">
                 <!-- Firs Blog entry -->
                  <div>
                      <div>
@@ -116,7 +122,7 @@ and open the template in the editor.
                  <!-- End of Blog entries -->
              </div>
               <!-- About me/Info -->   
-             <div>
+             <div class="col-sm-4">
                  <!-- About me -->
                  <div>
                      <img>
@@ -205,6 +211,7 @@ and open the template in the editor.
               <!--End of Subscribe  -->
              </div>
              <!-- End of Grid system -->
+             </div>
         </div>
         <!-- End of Content div -->
         <!-- Footer -->
