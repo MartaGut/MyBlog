@@ -18,18 +18,26 @@ display: block;
 .socMed:hover {
     background: white;
     color: #07337a;
-header h1.main {
+}
+.main {
     color: red;
 }
-div.imgContainer {
+.imgContainer {
     position: relative;
+    display: block;
 }
- div img.image {
-    position: absolute;
-    left: 0;
-    top: 0;
+.subscribebutt {
+    background-color: #f6dba4;
 }
-div.imgText {
+.gridsystem {
+  
+}
+ .image {
+    float: left;
+     left: 0;
+     top: 0;
+}
+.imgText {
     z-index: 100;
     position: absolute;
     padding-top: 50px;
