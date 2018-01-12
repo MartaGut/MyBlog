@@ -20,7 +20,18 @@ display: block;
     color: #07337a;
 }
 .main {
-    color: red;
+     font-family: 'Oswald', sans-serif;
+     font-size: 70px;
+    font-weight: bold; 
+    text-align: center; 
+    color: #565e6c; 
+}
+.underMain {
+    font-family: 'Oswald', sans-serif;
+     font-size: 30px;
+    font-weight: bold; 
+    text-align: center; 
+    color: #565e6c; 
 }
 .imgContainer {
     position: relative;
@@ -31,6 +42,7 @@ display: block;
     background-color: #f6dba4;
     border: none; 
     border-radius: 15px;
+    font-family: 'Oswald', sans-serif;
 
 }
 .subscribebutt:hover {
@@ -51,9 +63,11 @@ display: block;
     position: absolute;
     padding-top: 50px;
     padding-left: 50px;
-    font-size: 50px;
+    font-size: 30px;
     text-shadow: 2px 2px 1px #f6dba4;
 }
 .title {
-    font-size: 50px;
+    padding-bottom: 50px;
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
 }
