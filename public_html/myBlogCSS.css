@@ -9,7 +9,7 @@
 background: #565e6c;
 padding: 10px;
 display: block;
-   margin: 0;
+margin: 0;
 }
 .searchRight {
     float: right;
@@ -88,6 +88,7 @@ display: block;
 .blogEntry {
     text-align: center;
     background-color: white;
+    padding: 20px; 
 }
 .blogTitle {
     padding-bottom: 20px;
@@ -103,16 +104,35 @@ display: block;
     opacity: 0.5; 
 }
 .blogEntries {
-padding: 20px;
 }
 .WorkChina{
     float: left;
     width: 100%;
     height: auto;
+    padding-bottom: 30px;
 }
 .blogContainer {
     text-align: justify; 
+    
 }
 .gridsystem{
     background-color: rgba(246, 219, 164,0.2);
+}
+.buttDiv {
+    display: block;
+    padding: 20px; 
+}
+  .thumbButt{
+      display: block;
+}
+.comments {
+    float: right;
+}
+.pplComments {
+    display: block; 
+    float: left; 
+} 
+.commPic {
+    max-width: 80px;
+    max-height: 100px;
 }
