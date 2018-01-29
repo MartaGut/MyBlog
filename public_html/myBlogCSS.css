@@ -88,7 +88,9 @@ margin: 0;
 .blogEntry {
     text-align: center;
     background-color: white;
-    padding: 20px; 
+    padding: 20px;
+      margin-top: 20px; 
+     margin-bottom: 20px;
 }
 .blogTitle {
     padding-bottom: 20px;
@@ -104,6 +106,7 @@ margin: 0;
     opacity: 0.5; 
 }
 .blogEntries {
+     background-color: rgba(246, 219, 164,0.2);
 }
 .WorkChina{
     float: left;
@@ -130,9 +133,28 @@ margin: 0;
 }
 .pplComments {
     display: block; 
-    float: left; 
+    overflow: hidden;
 } 
 .commPic {
     max-width: 80px;
     max-height: 100px;
+    float: left;
+    
+}
+.avatarComm {
+    float: left;
+    padding: 10px;
+}
+.postDate {
+    opacity: 0.5;
+    font-size: 10px;
+}
+.aboutMe{
+    margin: 20px; 
+    background: white;
+    padding: 10px;
+}
+.aboutMePic {
+    width: 100%;
+    height: auto; 
 }
