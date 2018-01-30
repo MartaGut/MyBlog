@@ -105,9 +105,6 @@ margin: 0;
 .light {
     opacity: 0.5; 
 }
-.blogEntries {
-     background-color: rgba(246, 219, 164,0.2);
-}
 .WorkChina{
     float: left;
     width: 100%;
@@ -149,12 +146,21 @@ margin: 0;
     opacity: 0.5;
     font-size: 10px;
 }
-.aboutMe{
-    margin: 20px; 
+.aboutMe, .popular, .advertisement, .tags, .followMe, .subscribe {
     background: white;
-    padding: 10px;
+    margin: 20px;
 }
 .aboutMePic {
     width: 100%;
     height: auto; 
+}
+.grey {
+    background-color: #565e6c;
+    height: auto;
+    width: 100%;
+    padding: 15px; 
+    margin: 0px;
+}
+.whiteBox{
+    padding: 15px;
 }
